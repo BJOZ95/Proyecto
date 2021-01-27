@@ -500,8 +500,10 @@ nav.contenedor{
     border: 3px solid var;  
     font-family:cursive;
     background: rgb(147, 203, 236);
-    box-sizing: 70px;
+    box-sizing: border-box;
     border: 2px solid black;
+    width: 45%;
+    
      
 }
 .nombre-usuario{
@@ -509,6 +511,7 @@ nav.contenedor{
     font-weight: 500;
     font-style: normal;
     margin-bottom: 0;
+    color: chocolate;
 }
   
 .usuario-trabajo {
@@ -522,6 +525,7 @@ nav.contenedor{
 .comentario-usuario p {
     font-style: normal;
     font-weight: normal;
+    width: 90%%;
 }
 .contactame{
     height: 100vh;
